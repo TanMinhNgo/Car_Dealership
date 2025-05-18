@@ -1,0 +1,14 @@
+SMAP
+newjsp_jsp.java
+JSP
+*S JSP
+*F
++ 0 newjsp.jsp
+newjsp.jsp
+*L
+1:44
+4,5:47
+8,11:52
+19,3:63,3
+22,7:72
+*E

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Car Dealership</title>
+
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+            rel="stylesheet"
+            />
+        <link rel="stylesheet" href="./styles/mystyle.css" />
+    </head>
+    <body>
+        <div class="wrap">
+            <header class="py-4 lg:py-6 bg-white shadow-lg">
+                <div class="container flex justify-between items-center">
+                    <div class="flex-1 flex justify-center">
+                        <h1>
+                            <a href="loginPage.jsp" class="max-w-[150px] block"
+                               ><img
+                                    src="./images/cardealer_logo.jpg"
+                                    alt="Car Dealer logo"
+                                    class="image max-w-full block object-cover"
+                                    />
+                            </a>
+                        </h1>
+                    </div>
+                    <div
+                        class="flex items-center gap-6 border-black rounded-[20px] border px-4 py-2 font-semibold hover:bg-black hover:text-white "
+                        >
+                        <a href="loginPage.jsp" class="cursor-pointer text-[16px]">Login</a>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <section
+                    class="pt-[150%] md:pt-[44.825%] relative bg-[#f0f0f0] before:bg-gray before:absolute before:animate-pulse before:inset-0 before:w-full before:h-full"
+                    >
+                    <img
+                        class="absolute image inset-0 h-full"
+                        src="./images/cardealer_banner.jpeg"
+                        alt="Banner Image"
+                        />
+                    <div
+                        class="absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 text-center"
+                        >
+                        <h2
+                            class="text-[20px] leading-6 md:text-4xl md:leading-10 font-semibold text-white drop-shadow-[2px_2px_0px_rgba(0,0,0,1)]"
+                            >
+                            Service You Can Trust, <br />
+                            Quality You Deserve!
+                        </h2>
+                        <button
+                            class="h-9 px-8 mt-8 hover:text-white hover:bg-primary transition-all rounded-full border border-black font-semibold text-[15px] text-white"
+                            >
+                            <a class="drop-shadow-[2px_2px_0px_rgba(0,0,0,1)]" href="loginPage.jsp"
+                               >Shop now</a
+                            >
+                        </button>
+                    </div>
+                </section>
+                <section class="bg-gray">
+                    <div class="container">
+                        <ul
+                            class="grid grid-cols-2 lg:grid-cols-4 gap-5 items-center py-14"
+                            >
+                            <li
+                                class="flex items-center lg:justify-center lg:flex-1 gap-[15px]"
+                                >
+                                <img
+                                    class="image size-20"
+                                    src="./images/icon_carDriver.png"
+                                    alt=""
+                                    />
+                                <span class="text-sm lg:text-base font-semibold"
+                                      >Free Test Drive</span
+                                >
+                            </li>
+                            <li
+                                class="flex items-center lg:justify-center lg:flex-1 gap-[15px]"
+                                >
+                                <img
+                                    class="image size-20"
+                                    src="./images/ico_quality.png"
+                                    alt=""
+                                    />
+                                <span class="text-sm lg:text-base font-semibold"
+                                      >Certified Quality Cars</span
+                                >
+                            </li>
+                            <li
+                                class="flex items-center lg:justify-center lg:flex-1 gap-[15px]"
+                                >
+                                <img
+                                    class="image size-20"
+                                    src="./images/ico_return.png"
+                                    alt=""
+                                    />
+                                <span class="text-sm lg:text-base font-semibold"
+                                      >Easy Return within 30 Days</span
+                                >
+                            </li>
+                            <li
+                                class="flex items-center lg:justify-center lg:flex-1 gap-[15px]"
+                                >
+                                <img
+                                    class="image size-20"
+                                    src="./images/ico_support.png"
+                                    alt=""
+                                    />
+                                <span class="text-sm lg:text-base font-semibold"
+                                      >24/7 Customer Support</span
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </main>
+            <footer class="bg-gray-100 py-10 mt-auto w-full">
+                <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-gray-700">
+                    <!-- About Us Section -->
+                    <div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-4">ABOUT US</h3>
+                        <p class="text-sm leading-6">
+                            We specialize in selling high-quality cars.<br />
+                            <span class="block mt-2">Address: Hi-Tech Park, Thu Duc City, Ho Chi Minh City</span>
+                            <span class="block mt-2">Customer Service Hotline: 0961618187</span>
+                            <span class="block mt-2">Email: fptshop@gmail.com</span>
+                        </p>
+                    </div>
+
+                    <!-- How to Buy Section -->
+                    <div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-4">HOW TO BUY</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="hover:text-blue-500 transition">Warranty Center</a></li>
+                            <li><a href="#" class="hover:text-blue-500 transition">Refund Policy</a></li>
+                            <li><a href="#" class="hover:text-blue-500 transition">Order Guide</a></li>
+                            <li><a href="#" class="hover:text-blue-500 transition">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Policies Section -->
+                    <div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-4">OUR POLICIES</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="hover:text-blue-500 transition">Privacy Policy</a></li>
+                            <li><a href="#" class="hover:text-blue-500 transition">Shipping Policy</a></li>
+                            <li><a href="#" class="hover:text-blue-500 transition">Warranty Policy</a></li>
+                            <li><a href="#" class="hover:text-blue-500 transition">Exchange Policy</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Follow Us Section -->
+                    <div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-4">FOLLOW US</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="hover:text-blue-500 transition">Newsletter</a></li>
+                            <li><a href="#" class="hover:text-blue-500 transition">Instagram</a></li>
+                            <li><a href="#" class="hover:text-blue-500 transition">Facebook</a></li>
+                            <li><a href="#" class="hover:text-blue-500 transition">YouTube</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Bottom Bar -->
+                <div class="mt-10 border-t border-gray-300 text-center py-4 text-sm text-gray-500">
+                    &copy; 2025 - All Rights Reserved.
+                </div>
+            </footer>
+
+        </div>
+
+        <!-- JS -->
+        <script src="./stylejs/main.js"></script>
+    </body>
+</html>
